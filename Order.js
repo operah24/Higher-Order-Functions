@@ -33,9 +33,9 @@ function randomGame(){
         // PART 3
 function isEven(num){
     if(num % 2 === 0){
-        return "true";
+        return true;
     }else{
-        return "false";
+        return false;
     }
 }
 console.log(isEven(4));
@@ -44,9 +44,9 @@ console.log(isEven(9));
         // PART 4
 function isOdd(num){
     if(num % 2 !== 0){
-        return "true";
+        return true;
     }else{
-        return "false";
+        return false;
     }
 }
 console.log(isOdd(5));
@@ -55,9 +55,9 @@ console.log(isOdd(5));
 function isPrime(num){
 for(var x = 2; x <= num; x++){
     if(num % x === 0){
-        return "false";
+        return false;
         } else {
-        return "true";
+        return true;
         }
     }
 }
